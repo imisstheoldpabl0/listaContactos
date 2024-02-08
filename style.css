@@ -1,0 +1,73 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 0px solid black;
+    width: 400px;
+    height: auto;
+    padding: 24px;
+    background-color: rgb(123, 155, 228);
+}
+
+.card {
+    display: flex;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-top: 0px;
+    justify-content: left;
+    align-items: center;
+    padding: 0px, 24px;
+    background-color: white;
+    height: 124px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: rgb(58, 58, 58);
+    font-weight:bolder;
+}
+
+p {
+    color: rgb(199, 199, 199);
+}
+
+.image {
+    padding-left: 8px;
+    border-radius: 49%;
+}
+
+.info {
+    padding: 8px 16px;
+    line-height: 4px;
+}
+
+
+
+
+/*
+.contact {
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card {
+    height: 85px;
+    width: auto;
+    display:flex;
+    flex-direction:row;
+    background-color: grey;
+}
+
+.image {
+    padding-right: 20px;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+*/
